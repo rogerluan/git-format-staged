@@ -23,7 +23,4 @@ Gem::Specification.new do |spec|
   spec.bindir        = "bin"
   spec.executables   = ['git_stage_formatter']
   spec.require_paths = ["lib"]
-
-  spec.add_development_dependency 'bundler', '>= 2.0.0', '< 3.0.0'
-  spec.add_development_dependency 'rake', '~> 13.0'
 end
